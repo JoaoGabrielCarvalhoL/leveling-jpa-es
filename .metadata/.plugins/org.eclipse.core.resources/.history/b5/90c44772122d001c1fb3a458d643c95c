@@ -1,0 +1,17 @@
+package application;
+
+import domain.Person;
+
+public class Startup {
+	
+	public static void main(String[] args) {
+		
+		Person person = new Person();
+		person.setId(1);
+		person.setName("João Gabriel Carvalho");
+		person.setEmail("27.joaogabriel@gmai.com");
+		
+		System.out.println(person);
+	}
+
+}
